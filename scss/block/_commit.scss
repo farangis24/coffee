@@ -1,0 +1,49 @@
+.commit__block {
+  margin-bottom: 100px;
+  text-align: center;
+}
+.commit__img {
+  margin-bottom: 50px;
+}
+.commit__title {
+  margin-bottom: 30px;
+  color: #333d4b;
+  font-family: Fraunces 9pt;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 48px;
+}
+.commit__text {
+  color: #333d4b;
+  font-family: "Barlow";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  max-width: 327px;
+}
+
+@media screen and (min-width: 768px) {
+  .commit__block {
+    display: flex;
+    margin-top: 144px;
+    text-align: left;
+    gap: 50px;
+  }
+  .commit__img {
+    max-width: 445px;
+  }
+  .commit__text {
+    width: 339px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .commit__block {
+    display: flex;
+    margin-top: 168px;
+    gap: 125px;
+  }
+  .commit__content {
+    align-items: center;
+  }
+}

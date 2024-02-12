@@ -1,0 +1,139 @@
+.work {
+  margin-bottom: 120px;
+}
+
+.box {
+  display: none;
+}
+
+.work__title {
+  color: #83888f;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.work__block {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.work__item {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 327px;
+  margin-bottom: 56px;
+}
+.work__list {
+  margin-bottom: 80px;
+}
+.work__img-block {
+  margin-bottom: 24px;
+}
+.work__sub-title {
+  margin-bottom: 24px;
+  color: #333d4b;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 32px;
+}
+.work__text {
+  color: rgb(51, 61, 75);
+  font-family: "Barlow";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.work__btn {
+  color: #fefcf7;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 25px;
+  border-radius: 6px;
+  background: #0e8784;
+  padding: 15px 31px;
+  border: none;
+}
+@media screen and (min-width: 768px) {
+  .box {
+    border: 2px solid #fdd6ba;
+    max-width: 554px;
+    height: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+    span {
+      display: block;
+      box-sizing: border-box;
+      width: 31px;
+      height: 31px;
+      border: 2px solid #0e8784;
+      background: #fefcf7;
+      border-radius: 50%;
+    }
+  }
+  .work__list {
+    display: flex;
+  }
+  .work__item {
+    gap: 10px;
+    max-width: 223px;
+    width: 100%;
+    text-align: left;
+  }
+  .work__img-block {
+    margin-bottom: 42px;
+  }
+  .work__title {
+    text-align: left;
+  }
+  .work__sub-title {
+    margin-bottom: 38px;
+    font-size: 28px;
+    line-height: 32px;
+    max-width: 150px;
+  }
+  .work__text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .work__block {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .box {
+    margin-bottom: 67px;
+  }
+  .work__title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .work__item {
+    gap: 96;
+    width: 100%;
+    max-width: 285px;
+    text-align: left;
+  }
+  .work__btn {
+    cursor: pointer;
+    background-color: #66d2cf;
+    color: white;
+  }
+
+  .box {
+    max-width: 700px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .box {
+    max-width: 850px;
+  }
+}

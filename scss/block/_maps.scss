@@ -1,0 +1,55 @@
+.maps__block {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.maps__item {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 327px;
+  margin-bottom: 80px;
+}
+.maps__title {
+  color: #83888f;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  margin-bottom: 78px;
+}
+.maps__img {
+  margin-bottom: 47px;
+}
+.maps__sub-title {
+  color: #333d4b;
+  font-family: Fraunces 9pt;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 36px;
+  margin-bottom: 24px;
+}
+.maps__link {
+  color: #333d4b;
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 8px;
+}
+@media screen and (min-width: 768px) {
+  .maps__block {
+    margin-bottom: 114px;
+  }
+  .maps__list {
+    display: flex;
+  }
+  .maps__item {
+    gap: 10px;
+    max-width: 223px;
+    width: 100%;
+    text-align: left;
+  }
+  .maps__title {
+    text-align: left;
+  }
+}

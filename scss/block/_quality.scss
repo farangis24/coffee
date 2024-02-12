@@ -1,0 +1,27 @@
+.quality__block {
+  .quality__block {
+    text-align: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    position: relative;
+    background-image: url("/img/quality2.png");
+    display: inline-block;
+
+    &::after {
+      content: "";
+      position: absolute;
+      background: #2c343e;
+      width: 100%;
+      display: block;
+      left: 0;
+      right: 0;
+      height: 597px;
+      z-index: -1;
+      border-radius: 10px;
+      top: 92%;
+    }
+  }
+  .quality__img {
+    text-align: center;
+  }
+}
